@@ -12,7 +12,10 @@ Comments.all
 ```
 Recipes.last
 ```
-
+#####How would you return all the comments of the most recent recipe in your database?
+```
+Comment.where("recipe_id = ?", Recipe.last.id)
+```
 #####How would you return the most recent comment of all your comments?
 ```
 Comment.last
