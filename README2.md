@@ -2,15 +2,15 @@
 
 #####How would you return all the recipes in your database?
 ```
-Recipes.all
+Recipe.all
 ```
 ##### How would you return all the comments in your database?
 ```
-Comments.all
+Comment.all
 ```
 #####How would you return the most recent recipe posted in your database?
 ```
-Recipes.last
+Recipe.last
 ```
 #####How would you return all the comments of the most recent recipe in your database?
 ```
